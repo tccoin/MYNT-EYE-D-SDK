@@ -191,7 +191,7 @@ make_executable(auto_restart
   DLL_SEARCH_PATHS ${MYNTEYE_DLL_SEARCH_PATHS}
 )
 
-find_package(PCL)
+#find_package(PCL)
 if(PCL_FOUND)
   #list(REMOVE_ITEM PCL_LIBRARIES "vtkproj4")
 
