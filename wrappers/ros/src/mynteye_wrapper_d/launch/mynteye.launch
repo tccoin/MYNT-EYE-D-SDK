@@ -32,7 +32,7 @@
   <!-- Device index -->
   <arg name="dev_index" default="0" />
   <!-- Framerate -->
-  <arg name="framerate" default="30" />
+  <arg name="framerate" default="60" />
 
   <!--
   Device mode
@@ -61,7 +61,7 @@
   <arg name="ir_depth_only" default="false" />
 
   <!-- Generating points frequency, make slower than framerate -->
-  <arg name="points_frequency" default="60" />
+  <arg name="points_frequency" default="20" />
   <!-- Points display z distance scale factor -->
   <arg name="points_factor" default="1000.0" />
 
